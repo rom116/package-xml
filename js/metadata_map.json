@@ -326,6 +326,14 @@
             "extension": "homePageLayout"
         }
     ],
+    "installedPackages": [
+        {
+            "type": "InstalledPackage",
+            "class": "MetadataFilenameParser",
+            "description": "Represents an Installed Package in the org",
+            "extension": "installedPackage"
+        }
+    ],
     "labels": [
         {
             "type": "CustomLabel",
