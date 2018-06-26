@@ -423,6 +423,14 @@
             }
         },
         {
+            "type": "Index",
+            "class": "MetadataXmlElementParser",
+            "extension": "object",
+            "options": {
+                "item_xpath": "./xmlns:indexes/xmlns:fullName"
+            }
+        },
+        {
             "type": "ListView",
             "class": "MetadataXmlElementParser",
             "extension": "object",
