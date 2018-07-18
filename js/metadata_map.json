@@ -223,6 +223,16 @@
             "version": ""
         }
     ],
+    "duplicateRules": [
+        {
+            "type": "MatchingRule",
+            "class": "MetadataXmlElementParser",
+            "extension": "duplicateRule",
+            "options": {
+                "item_xpath": "./xmlns:duplicateRules/xmlns:fullName"
+            }
+        }
+    ],
     "email": [
         {
             "type": "EmailTemplate",
