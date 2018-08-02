@@ -225,7 +225,7 @@
     ],
     "duplicateRules": [
         {
-            "type": "MatchingRule",
+            "type": "DuplicateRule",
             "class": "MetadataXmlElementParser",
             "extension": "duplicateRule",
             "options": {
