@@ -226,11 +226,11 @@
     "duplicateRules": [
         {
             "type": "DuplicateRule",
-            "class": "MetadataXmlElementParser",
-            "extension": "duplicateRule",
-            "options": {
-                "item_xpath": "./xmlns:duplicateRules/xmlns:fullName"
-            }
+            "class": "MetadataFilenameParser",
+            "star": true,
+            "description": "",
+            "version": "42",
+            "extension": "duplicateRule"
         }
     ],
     "email": [
