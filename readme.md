@@ -1,13 +1,13 @@
 # Package.xml generator in JavaScript
-`npm install cs-package-xml -g`
+`npm install package-xml -g`
 
 change directories to you project directory, which contains your src folder and run
 
-`cs-package-xml`
+`package-xml`
 
 or, the long version...
 
-`cs-package-xml -D "./src" -n "Package Name" -v "40.0" -m -c -i "InstallScriptHandler"`
+`package-xml -D "./src" -n "Package Name" -v "43.0" -m -c -i "InstallScriptHandler"`
 
 ## Options: (No options are required)
 * If no directory is provided, it will default to ./src
