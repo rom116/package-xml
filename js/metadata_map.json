@@ -225,12 +225,12 @@
     ],
     "duplicateRules": [
         {
-            "type": "MatchingRule",
-            "class": "MetadataXmlElementParser",
-            "extension": "duplicateRule",
-            "options": {
-                "item_xpath": "./xmlns:duplicateRules/xmlns:fullName"
-            }
+            "type": "DuplicateRule",
+            "class": "MetadataFilenameParser",
+            "star": true,
+            "description": "",
+            "version": "42",
+            "extension": "duplicateRule"
         }
     ],
     "email": [
