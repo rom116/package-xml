@@ -392,6 +392,13 @@
                 "item_xpath": "./xmlns:matchingRules/xmlns:fullName"
             }
         }
+    ],   
+    "namedCredentials": [
+        {
+            "type": "NamedCredential",
+            "class": "MetadataFilenameParser",
+            "extension": "namedCredential"
+        }
     ],
     "objects": [
         {
