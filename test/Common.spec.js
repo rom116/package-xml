@@ -51,7 +51,21 @@ describe('Generate a package XML', function () {
             expect(members).to.contain('PlatformEvent__e')
     })
     })
-
+    
+    it('should get Platform Event Channels', function () {
+        return getDirectoryContentsPromise.then(files => {
+            var members = getMembers('PlatformEventChannel', files, metadata, true)
+            expect(members).to.contain('ChangeEvents')
+        })
+    })
+    
+    it('should get Platform Event Channel Members', function () {
+        return getDirectoryContentsPromise.then(files => {
+            var members = getMembers('PlatformEventChannelMember', files, metadata, true)
+            expect(members).to.contain('ChangeEvents_AccountChangeEvent')
+        })
+    })
+    
     it('should get Custom Apex Classes', function () {
         return getDirectoryContentsPromise.then(files => {
             var members = getMembers('ApexClass', files, metadata, true)

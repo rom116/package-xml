@@ -549,6 +549,20 @@
             "extension": "permissionset"
         }
     ],
+    "platformEventChannels": [
+        {
+            "type": "PlatformEventChannel",
+            "class": "MetadataFilenameParser",
+            "extension": "platformEventChannel"
+        }
+    ],
+    "platformEventChannelMembers": [
+        {
+            "type": "PlatformEventChannelMember",
+            "class": "MetadataFilenameParser",
+            "extension": "platformEventChannelMember"
+        }
+    ],
     "quickActions": [
         {
             "type": "QuickAction",
