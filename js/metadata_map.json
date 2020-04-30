@@ -549,6 +549,13 @@
             "extension": "permissionset"
         }
     ],
+    "permissionsetgroups": [
+        {
+            "type": "PermissionSetGroup",
+            "class": "MetadataFilenameParser",
+            "extension": "permissionsetgroup"
+        }
+    ],
     "platformEventChannels": [
         {
             "type": "PlatformEventChannel",

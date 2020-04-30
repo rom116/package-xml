@@ -114,6 +114,13 @@ describe('Generate a package XML', function () {
             expect(members).to.contain('MyAsset')
         })
     })
+    
+    it('should get PermissionSetGroups', function () {
+        return getDirectoryContentsPromise.then(files => {
+            var members = getMembers('PermissionSetGroup', files, metadata, true)
+            expect(members).to.contain('TestPermissionSetGroup')
+        })
+    })
 
     it('should make a sample Package XML from an empty directory', function () {
         var config = {

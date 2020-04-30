@@ -109,6 +109,7 @@ OwnerSharingRule                    Yes	            Represents an ownership-base
 Package                             No	            Specifies which metadata components to retrieve as part of a retrieve() call or defines a package of components.
 PathAssistant                       Yes	            Represents Sales Path records for Opportunity.
 PermissionSet                       Yes	            Represents a set of permissions that's used to grant additional access to one or more users without changing their profile or reassigning profiles. You can use permission sets to grant access, but not to deny access.
+PermissionSetGroup                  Yes             Represents a group of permission sets and the permissions within them. Use permission set groups to organize permissions based on job functions or tasks.
 Picklist                            (Including Dependent Picklist)	No	Deprecated. Represents a picklist (or dependent picklist) definition for a custom field in a custom object or a custom or standard field in a standard object, such as an account.
 PlatformCachePartition              Yes	            Represents a partition in the Platform Cache.
 Portal                              Yes	            The Portal metadata type represents a partner portal or Customer Portal.
